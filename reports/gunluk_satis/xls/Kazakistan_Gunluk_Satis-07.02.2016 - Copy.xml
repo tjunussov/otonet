@@ -1,0 +1,2463 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>root</Author>
+  <LastAuthor>Timur Junussov</LastAuthor>
+  <Created>2016-02-17T10:35:33Z</Created>
+  <LastSaved>2016-03-05T11:10:27Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>1185</WindowHeight>
+  <WindowWidth>2100</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m103215776">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m103215796">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m88395528">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m103217344">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m103217364">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m103216488">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <NumberFormat ss:Format="###\ ###\ ###\ ###\ ##0"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="###\ ###\ ###\ ###\ ##0"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Yerel">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="81" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72" ss:Span="2"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="61.5" ss:Span="2"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="72" ss:Span="1"/>
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="61.5" ss:Span="3"/>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RAMSTORE KAZAKISTAN</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="17.4375">
+    <Cell ss:MergeDown="1" ss:StyleID="m103215776"><Data ss:Type="String">TARIH</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m103215796"><Data ss:Type="String">100 SAMAL</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m88395528"><Data ss:Type="String">MAGAZA TOPLAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.0625">
+    <Cell ss:Index="2" ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">01.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5759157.9106999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6561336</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6496297.9106999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-9.9123241516666516E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.1279944067222849</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1710</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">02.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8224687.5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9137862.2588999998</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-6.1771418393418043E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.11102850520460494</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2244</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">03.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9207635.0304000005</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9534442</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10108341.4286</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">6.0192240783466966E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">9.7821687678347313E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2316</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">04.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8812604.2678999994</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9534442</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10587117.830399999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">0.1104077019294889</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.20136085866963116</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2637</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">05.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10100528.0536</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9919526.2982000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">1.8485814874792172E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-1.7920028976652125E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2786</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">06.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10009505.294600001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10764692</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10360936.469599999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-3.7507392724287936E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">3.5109744653373687E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2850</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">07.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9901991.0625</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11277297</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9480352.1963999998</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.15934180004304221</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-4.25812206291315E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2521</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">08.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8285064.1606999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9585909.4911000002</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-1.5768238738315121E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.15701089396151313</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2836</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">09.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8769578.8392999992</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11277297</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12252309.7862</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">8.6458021474472124E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.39713776576048176</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2607</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11330116.6116</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10764692</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9983872.4017999992</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-7.2535247473871189E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.1188199782888103</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2422</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9337214.2357000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10252088</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10182821.033</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-6.7563765547077326E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">9.0563071163870079E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2958</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9819546.7588999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9431921</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9849966.9642999992</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">4.4322462444288835E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">3.0979235749784007E-3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2735</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">13.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9023733.9553999994</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9431921</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10054904.578600001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">6.6050550953512088E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.11427316322672909</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3048</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8471374.0446000006</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9494158.8445999995</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-2.5188722051394108E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.120734227365626</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2763</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8787194.875</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10252088</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10200762.8705</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-5.0063098853618815E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.16086680853313839</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2853</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">16.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9882625.2366000004</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11789901</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12785800.411599999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">8.4470549125051919E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.2937655840927953</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2820</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">17.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11883274.580399999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10764692</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9375348.0088999998</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.12906490878698618</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.21104675773767911</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2301</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9037978.0178999994</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10252088</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10120040.7125</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-1.2880038437048102E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.11972397946276714</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2877</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">19.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8600656.5758999996</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9431921</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9647232</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">2.2827905365195411E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.1216855265483594</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2801</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">20.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8590037.0982000008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9431921</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9360691.0695999991</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-7.5520066802935437E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">8.9714859504097522E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2827</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8224877.5981999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9944525</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8778283.8438000008</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.11727469700161641</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">6.7284435420791322E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2787</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8621380.0285999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10252088</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10654014.3116</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">3.9204336872644907E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.23576669584881671</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2895</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">23.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9171311.8661000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11789901</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12780411.9571</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">8.4013509282223842E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.39352059374846338</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2865</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">24.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12732930.723200001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11277297</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9925078.2820999995</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.11990627877407156</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.2205189443137362</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2418</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9317627.2544999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9375030.8392999992</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-3.7420171407438141E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">6.1607513621320109E-3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2966</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">26.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8096506.8304000003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9012218.5446000006</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-7.4671867154358473E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.11309960374043926</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2847</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">27.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8683471.1607000008</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9739484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8162219.3661000002</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.16194540017725778</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-6.0028044655586865E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2752</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">28.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8230569.0536000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10047046</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9100361.9517999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-9.4225113351725454E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.10567834283822175</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2799</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">29.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8502345.6963999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10252088</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10231983.9911</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-1.9609672585720883E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.20343071858773643</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2899</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">30.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9867050.8972999994</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11789901</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12642450.723200001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">7.2311864467733855E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.2812795692236123</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2804</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">31.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12680385.541099999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10457127</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10529120.669600001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">6.8846509753588414E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.16965295451997597</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2470</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">287962960.75999999</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">314739100</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">310175427.04580009</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-1.4499860215015925E-2</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">7.7136539460409548E-2</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">83414</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">01.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9670498.4571000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10238536</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9875863.625</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-3.5422288401388613E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">2.1236254657506448E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3027</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">02.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9179726.7893000003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9317068</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9281028.1428999994</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-3.8681543485569181E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">1.1035334267036845E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2829</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">03.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8689161.2759000007</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9317068</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10223492.0911</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">9.7286409318897205E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.17657985235647233</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2867</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">04.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8644340.6570999995</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9317068</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8933828.7375000007</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-4.1133032677232673E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">3.3488740423739616E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2763</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">05.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">8427447.75</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9521838</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10262785.517899999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">7.7815597986439E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.21778097264382312</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3107</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">06.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9524313.5713999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11262389</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12492342.267899999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">0.10920891365943763</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.31162652029984805</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2767</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">07.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11265764.102700001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10238536</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11090228.25</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">8.3184964139404238E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-1.5581353479426352E-2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2656</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">65401252.603500001</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">69212503</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">72159568.632299989</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">4.2579960333178457E-2</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">0.10333618638426989</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">20016</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">353364213.3635</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">383951603</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">382334995.67810011</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-1]/RC[-2]-1"><Data ss:Type="Number">-4.2104455594625945E-3</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-2]/RC[-4]-1"><Data ss:Type="Number">8.1985614895298875E-2</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">103430</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Index="49">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MAGAZA TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2039505214.9589286</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">463142035.33749998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2039724461</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">400004121</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2039453070.505357</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">461302611.39285713</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">-1.3305252735451578E-4</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">0.15324464717916531</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-2.5567207766474809E-5</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-3.9716195125808484E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1219915</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">285890</Data></Cell>
+   </Row>
+   <Row ss:Index="58">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TOPTAN SATIS</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9162862.5109821428</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">486973.60535714269</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10792143.803571429</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2504170.7321428573</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Error">#DIV/0!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Error">#DIV/0!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">0.1778135697918104</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">4.1423130629560871</Data></Cell>
+   </Row>
+   <Row ss:Index="66">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SIRKET TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">2048668077.4699106</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">463629008.94285715</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">2039724461</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">400004121</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">2050245214.3089285</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">463806782.125</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">5.1579286860004014E-3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">0.15950500951213953</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">7.6983521945916955E-4</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">3.8343843615007422E-4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C"><Data ss:Type="Number">1219915</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C"><Data ss:Type="Number">285890</Data></Cell>
+   </Row>
+   <Row ss:Index="75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SIRKET TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">KUMULE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">2512297086.4127679</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">2439728582</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">2514051996.4339285</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">3.0463804450329812E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">6.9852806447601168E-4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">1505805</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>4</SplitHorizontal>
+   <TopRowBottomPane>35</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>0</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>57</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C5:R47C6,R6C11:R47C12,R53C2:R54C3,R62C2:R63C3,R70C2:R71C3,R79C2:R80C2</Range>
+   <Condition>
+    <Qualifier>Less</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:red'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="USD">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="81" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72" ss:Span="2"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="61.5" ss:Span="2"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="72" ss:Span="1"/>
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="61.5" ss:Span="3"/>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RAMSTORE KAZAKISTAN</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="17.4375">
+    <Cell ss:MergeDown="1" ss:StyleID="m103217344"><Data ss:Type="String">TARIH</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m103217364"><Data ss:Type="String">100 SAMAL</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="m103216488"><Data ss:Type="String">MAGAZA TOPLAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.0625">
+    <Cell ss:Index="2" ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">01.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">31582.988300000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">20829.638095238097</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">19106.196599999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-8.2739867459919902E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.39504785239083917</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1710</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">02.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">45103.852500000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">26875.275000000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.13078437985010294</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.40414679655135888</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2244</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">03.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">50494.296799999996</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30268.06984126984</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29729.5416</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-1.7791958459655977E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.41122971337230296</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2316</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">04.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">48327.964200000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30268.06984126984</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">31137.666000000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">2.8729818693112863E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.35570085528245776</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2637</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">05.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">55390.885999999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29174.219300000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-5.6430599454755481E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.47330289499250833</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2786</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">06.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">54741.6204</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">34173.625396825395</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30194.4876</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.11643885454409653</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.44841808884415124</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2850</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">07.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">54094.460899999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">35800.942857142858</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27478.4853</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.23246475910849917</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.49202774474826128</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2521</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">08.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">45261.208200000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27784.439600000002</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.10137965481538858</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.38613128758679494</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2836</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">09.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">47908.106200000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">35800.942857142858</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">34819.568599999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-2.7411966803747467E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.27320089726276853</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2607</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">10.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">61896.294000000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">34173.625396825395</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">28372.946499999998</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.16974139645611785</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.5416050838197195</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2422</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">11.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">51009.091699999997</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32546.31111111111</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">28938.334200000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.11085670811643433</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.4326828172084467</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2958</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">12.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">53644.068599999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29942.606349206348</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27600.221300000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-7.8229163550033842E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.48549351269750629</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2735</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">13.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">49162.266199999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29942.606349206348</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27542.401699999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-8.0160177815314593E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.43976541707916628</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3048</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">14.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">46152.950400000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">26019.235499999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.1584709023085823</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.43623895602565854</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2763</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">15.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">47873.576000000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32546.31111111111</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27929.696</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.14184756900252904</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.41659474111564176</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2853</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">16.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">53768.363599999997</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">37428.257142857146</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">35427.543400000002</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-5.3454632825161164E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.34110802285974717</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2820</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">17.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">64653.289299999997</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">34173.625396825395</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25977.6891</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.23983221568252944</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.5982000392979232</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2301</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">49172.894500000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32546.31111111111</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">28041.1214</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.13842397363346859</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.42974434014658225</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2877</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">19.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">46793.561300000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29942.606349206348</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25773.375</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.13924076283081666</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.44921108195284976</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2801</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">20.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">46733.241399999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29942.606349206348</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">24783.402399999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.17230310177534358</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.46968364150319775</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2827</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">21.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">44749.061999999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">31569.920634920636</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23433.752899999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.25771897968982937</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.47632974072171608</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2787</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">22.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">46829.875200000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32546.31111111111</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27751.333200000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.14732784599585957</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.40740108570692923</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2895</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">23.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">49817.0118</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">37428.257142857146</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">33530.307399999998</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.10414456991623611</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.32693057675530834</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2865</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">24.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">69163.121799999994</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">35800.942857142858</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">26039.139200000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.27266889858447463</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.62351122213225485</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2418</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">50611.772199999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">24596.051100000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.204500351712678</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.51402509671455454</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2966</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">26.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">43978.853000000003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">24168.5713</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.21832614956808805</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.45045016749299949</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2847</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">27.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">47077.642500000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30918.996825396825</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">21462.5805</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.30584486226375029</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.5441024792182404</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2752</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">28.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">44622.223100000003</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">31895.384126984129</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">24235.963500000002</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.24014197780123625</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.45686337846309588</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2799</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">29.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">46095.666599999997</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32546.31111111111</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27538.646199999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.15386274942236156</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.40257624563780581</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2899</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">30.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">53494.447800000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">37428.257142857146</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">34656.790800000002</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-7.4047432459356521E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.35214228344647014</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2804</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">31.01.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">68747.007500000007</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">33197.228571428568</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">28863.512299999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.13054452006750994</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.58014881884131464</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2470</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">1568951.6640000003</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">999171.7460317458</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">858982.4944999998</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.14030546008582978</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.45251181778918104</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Number">83414</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-31]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">01.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">52428.8341</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32503.288888888888</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27072.736700000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.16707700588248153</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.48362886253844806</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3027</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">02.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">49768.103999999999</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29577.993650793651</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25748.448199999999</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.12947279305034587</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.48263152239032459</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2829</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">03.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">47108.491600000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29577.993650793651</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27694.6826</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-6.3672711307892094E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.41210848279421453</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2867</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">04.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">46865.495600000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29577.993650793651</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23807.6715</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.19508835585400897</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.49200000565021229</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2763</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">05.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">45615.414100000002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30228.057142857142</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">28245.680400000001</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-6.5580686627938811E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.3807864960278855</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3107</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">06.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">51552.441500000001</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">35753.615873015871</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">34346.041599999997</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-3.9368725054693132E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.33376498569907698</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2767</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">07.02.2016</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60978.425499999998</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">32503.288888888888</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30491.114699999998</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-6.1906787210593395E-2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.49996880946032296</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2656</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s63"
+     ss:Formula="=+RC[-6]+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!+#REF!"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">354317.20640000002</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">219722.23174603176</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">197406.3757</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.10156394220419973</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.44285410887683041</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">20016</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=+RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">1923268.8704000004</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">1218893.9777777775</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">1056388.8701999998</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-1]/RC[-2]-1"><Data ss:Type="Number">-0.13332177411693213</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-2]/RC[-4]-1"><Data ss:Type="Number">-0.45073261130655506</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Number">103430</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-1]/RC[-2]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s67" ss:Formula="=RC[-2]/RC[-4]-1"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=R[-10]C+R[-2]C"><Data ss:Type="Error">#REF!</Data></Cell>
+   </Row>
+   <Row ss:Index="49">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MAGAZA TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11114543.75895958</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2509078.3848060025</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6475315.7492063493</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1269854.3523809523</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5658487.8748558434</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1262157.9651493866</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">-0.12614487169226007</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">-6.0608425030281854E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-0.49089337380182951</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-0.49696351744428491</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1219915</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">285890</Data></Cell>
+   </Row>
+   <Row ss:Index="58">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TOPTAN SATIS</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">49820.835710448591</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2639.1104443532172</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29747.782878598809</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6836.5208406785086</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Error">#DIV/0!</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Error">#DIV/0!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-0.40290477960890558</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">1.5904640919088084</Data></Cell>
+   </Row>
+   <Row ss:Index="66">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SIRKET TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OCAK</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SUBAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">11164364.594670029</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">2511717.4952503559</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">6475315.7492063493</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">1269854.3523809523</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">5688235.6577344425</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C+R[-8]C"><Data ss:Type="Number">1268994.4859900651</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">-0.12155084353506251</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">-6.7713780661138312E-4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-0.49050072581380411</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-0.49477021663872356</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C"><Data ss:Type="Number">1219915</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=R[-17]C"><Data ss:Type="Number">285890</Data></Cell>
+   </Row>
+   <Row ss:Index="75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">SIRKET TOPLAM</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">KUMULE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - GEÇEN YIL</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">13676082.089920385</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIŞ - BÜTÇE</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">7745170.1015873011</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NET SATIS -FİİLİ</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">6957230.1437245077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prog.Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-1]C/R[-2]C-1"><Data ss:Type="Number">-0.1017330733254409</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">G.Yıla Göre Artış</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=+R[-2]C/R[-4]C-1"><Data ss:Type="Number">-0.49128485058947102</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">MUSTERI SAYISI</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=SUM(R[-9]C:R[-9]C[1])"><Data
+      ss:Type="Number">1505805</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>4</SplitHorizontal>
+   <TopRowBottomPane>4</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>0</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>64</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C5:R47C6,R6C11:R47C12,R53C2:R54C3,R62C2:R63C3,R70C2:R71C3,R79C2:R80C2</Range>
+   <Condition>
+    <Qualifier>Less</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:red'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

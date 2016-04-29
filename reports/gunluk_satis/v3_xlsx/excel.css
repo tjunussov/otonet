@@ -1,0 +1,66 @@
+body { background-color:#ccc;}
+body, table { font:normal 11px sans-serif; }
+table { table-layout:fixed; border-collapse:collapse; }
+h2 { margin:5px 0;}
+
+th, ta { background-color:#ffcc00; font-weight:bold;}
+
+td,th,ta,tn { border-top:1px solid #000; border-left:1px solid #000; padding:2px 5px 0 5px; }
+
+.magaza .head th[colspan] { width: 560px; height:20px; }
+.magaza td,.magaza .head2 th { overflow:hidden; white-space:normal; }
+.magaza td { text-align:right; }
+
+.magaza { width: 100%; }
+.magaza .col-start, .magaza .head th { border-left-width:2px; }
+.magaza .col-end, .magaza .head th { border-right-width:2px;}
+
+.magazas table { border-bottom:1px solid #000; border-right:1px solid #000; background-color:#fff; }
+.magazas .tarih { text-align:center !important; vertical-align:middle !important; width:80px; border-width:1px !important;}
+
+tbody.toplam th, tbody.toplam td, tfoot.toplam th, tfoot.toplam td {
+	text-align:right;
+	height:20px;
+	background-color:#ffcc00; 
+	font-weight:bold;
+}
+
+.magazas tr.head th {height:20px;}
+.magazas tr.head2 td, .magazas tr.head2 th {
+	height:50px;
+	vertical-align:top;
+	padding-top:7px;
+}
+
+.stats {
+	margin-top:10px;
+	border-bottom:1px solid #000; 
+	border-right:1px solid #000;
+	background-color:#fff;
+}
+.stats td {	text-align:right; }
+.stats th { width:70px; }
+.stats th:first-child { text-align:left;  width:120px; }
+.stats tr.head2 {
+	width:140px;
+}
+
+
+
+.neg {
+	color:#f00 !important;
+}
+
+l,v { display:inline-block; min-width:100px; }
+
+
+
+
+
+
+
+
+
+
+
+
